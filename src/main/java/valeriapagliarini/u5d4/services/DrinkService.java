@@ -18,8 +18,6 @@ public class DrinkService {
     private DrinkRepository drinkRepository;
 
 
-
-
     // salvo i drink
     public void saveDrink(Drink newDrink) {
         if (newDrink.getNome().length() < 2)
@@ -50,4 +48,4 @@ public class DrinkService {
     }
 }
 
-}
+
